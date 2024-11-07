@@ -9,3 +9,78 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px; 
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #6b7280; 
+}
+
+header nav ul li a:hover {
+    color: #5A67D8; 
+}
+
+.overview-hero .container {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+.overview-hero-image {
+    flex: 1; 
+}
+
+.overview-hero-text {
+    flex: 1; 
+}
+
+.overview-hero-text h2 {
+    font-size: 28px; 
+    margin: 0 0 10px;
+}
+
+.overview-hero-text p {
+    font-size: 18px;
+}
+
+.learn-about .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+}
+
+.learn-about .card {
+    border: 1px solid #E2E8F0; 
+    border-radius: 5px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    text-align: center;
+}
+
+.learn-about .card h3 {
+    font-size: 21px;
+    color: #48BB78; 
+    margin: 10px 0;
+}
+
+.learn-about .card p {
+    font-size: 16px;
+}
