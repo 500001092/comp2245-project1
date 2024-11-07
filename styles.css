@@ -61,6 +61,12 @@ header nav ul li a:hover {
     font-size: 18px;
 }
 
+.overview-hero-image img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 5px; 
+}
+
 .learn-about .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
@@ -83,4 +89,86 @@ header nav ul li a:hover {
 
 .learn-about .card p {
     font-size: 16px;
+}
+
+.learn-about .card img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 5px; 
+}
+
+.testing .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4A5568; 
+    color: white; 
+    padding: 20px;
+    border-radius: 5px; 
+}
+
+.testing .testing-desciption {
+    flex: 1; 
+}
+
+.testing .cta {
+    flex: 0;
+    margin-left: 20px; 
+}
+
+.testing .btn {
+    background-color: #48BB78; 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block; 
+    text-align: center; 
+}
+
+
+.testing .btn:hover {
+    background-color: #3A7F64; 
+}
+
+.stories .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stories article {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* Adds space between the image and text */
+}
+
+.stories article img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fits within the circle */
+}
+
+.stories h3 {
+    font-size: 18px;
+    color: #5A67D8; /* Title color */
+    margin: 0 0 10px;
+}
+
+.stories .article-body p {
+    margin: 0 0 10px;
+    font-size: 16px;
+}
+
+.stories .article-body a {
+    color: #5A67D8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.stories .article-body a:hover {
+    text-decoration: underline;
 }
